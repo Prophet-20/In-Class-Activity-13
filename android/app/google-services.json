@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413669284130",
+    "project_id": "ica13-campus-access-blake",
+    "storage_bucket": "ica13-campus-access-blake.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413669284130:android:d385abb0841d6062fded7b",
+        "android_client_info": {
+          "package_name": "edu.gsu.classlab.auth_lab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOF7vXvPrzPedCx9j4MBrZpB-pA2fkK1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
