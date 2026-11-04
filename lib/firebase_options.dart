@@ -5,8 +5,9 @@ import 'package:flutter/foundation.dart';
 
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
-    if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android)
+    if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
       return android;
+    }
     throw UnsupportedError('Configure Firebase for this platform first.');
   }
 
