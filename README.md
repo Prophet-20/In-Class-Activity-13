@@ -67,14 +67,3 @@ For a manual check with a test account:
 The release APK passed the account flow and session-restoration checks. Firebase
 hasn't triggered a natural recent-login challenge during testing; that recovery
 path is covered by the simulated test.
-
-## Build the APK
-
-```sh
-flutter build apk --release
-```
-
-Output: `build/app/outputs/flutter-apk/app-release.apk`.
-
-The main manifest includes Internet permission. This classroom build uses debug
-signing; use private release signing for Play Store distribution.
